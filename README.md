@@ -9,7 +9,7 @@ This is a condensed version of LangChain Academy, intended to be run in a sessio
 | Module | Notebook | What you build |
 |--------|----------|----------------|
 | 1 | `modules/01_deep_agents.ipynb` | A research agent with `create_deep_agent()`: filesystem, planning, subagents, backends, middleware, HITL, AGENTS.md, and skills |
-| 2 | `modules/02_deep_agents_sdk.ipynb` | That agent served by a local LangGraph server, driven the way a chat UI would through the LangGraph SDK: threads, streaming tokens, live plan and files, subagent activity, approvals, stop and reconnect |
+| 2 | `modules/02_deep_agents_sdk.ipynb` | That agent served by a local LangGraph server, driven the way a chat UI would through the LangGraph SDK: threads, streaming tokens, live plan and files, subagent activity, approvals, and reopening a conversation |
 
 Module 2 starts a local agent server (`langgraph dev`) from inside the notebook. It serves the graphs listed in `langgraph.json`, which are defined in `agent.py`, and reads your keys from `.env`.
 
