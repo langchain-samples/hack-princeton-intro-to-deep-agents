@@ -32,7 +32,7 @@ Notebooks can read injected Codespaces secrets directly from the environment.
 ## Test with Codespaces secrets
 
 1. In GitHub, open **Settings → Codespaces → Secrets**.
-2. Add the keys required by the modules you plan to test and scope them to this repository. Use the key table in the main README as the source of truth.
+2. Add the keys the notebook needs and scope them to this repository. Use the key table in the main README as the source of truth.
 3. Create a new Codespace from the experimental badge above.
 4. Confirm the generated `.env` still contains each expected variable exactly once and that configured entries are populated.
 5. Run the selected notebooks and confirm model calls work without manually copying keys.

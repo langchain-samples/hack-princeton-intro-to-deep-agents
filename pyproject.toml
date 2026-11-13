@@ -1,7 +1,7 @@
 [project]
 name = "modular-workshops"
 version = "0.1.0"
-description = "LangGraph and Deep Agents workshop modules"
+description = "Deep Agents workshop"
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=0.120",
