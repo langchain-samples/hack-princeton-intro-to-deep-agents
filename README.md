@@ -89,6 +89,3 @@ The setup cell writes the server's output to `langgraph_dev.log` at the workshop
 
 **Tool output starts with `[fallback content; live search unavailable ...]`**
 Every call to the Anthropic API failed. Check that `ANTHROPIC_API_KEY` is set, that your account can use the model named in `RESEARCH_MODEL`, and that web search is enabled for your organization in the Claude Console.
-
-## For LangChain Internal Users
-Please refer to this linked [Notion document](https://app.notion.com/p/Modular-Workshops-37d808527b1780318063fd210446aa03?source=copy_link) for instructions on setup and usage.
