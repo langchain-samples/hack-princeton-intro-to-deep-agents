@@ -4,6 +4,8 @@ This repository contains hands-on tutorials for learning Deep Agents.
 
 This is a condensed version of LangChain Academy, intended to be run in a session with a LangChain engineer. If you're interested in going into more depth, or working through tutorials on your own, check out [LangChain Academy](https://academy.langchain.com/)! LangChain Academy has helpful pre-recorded videos from our LangChain engineers.
 
+**Companion slides:** [Intro to Deep Agents](https://docs.google.com/presentation/d/17CqtXhjP1S2PFVIwaQD8UsdlZA2IUXIF/edit?slide=id.p2#slide=id.p2)
+
 | Module | Notebook | What you build |
 |--------|----------|----------------|
 | 1 | `modules/01_deep_agents.ipynb` | A research agent with `create_deep_agent()`: filesystem, planning, subagents, backends, middleware, HITL, AGENTS.md, and skills |
