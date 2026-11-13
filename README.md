@@ -61,7 +61,7 @@ The default is Claude Haiku 5.5 because it's fast and inexpensive; swap in `clau
 ## Project Structure
 
 ```
-vertex-pharmaceuticals-deep-agents-workshop/
+hack-princeton-intro-to-deep-agents/
 ├── README.md
 ├── pyproject.toml
 ├── .env.example
