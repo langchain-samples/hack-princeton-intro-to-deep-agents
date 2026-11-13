@@ -15,16 +15,6 @@ from langchain.chat_models import init_chat_model
 # MODEL_SPEC = {"model": "openai:gpt-5.6-luna", "use_responses_api": True}
 # API_KEY_ENV = "OPENAI_API_KEY"
 
-# --- OpenAI via the LangSmith LLM Gateway ---
-# Routes every model call through the Gateway so workspace policies
-# (PII / secrets / allow-lists / cost caps) are enforced.
-# MODEL_SPEC = {
-#     "model": "openai:gpt-5.6-luna",
-#     "base_url": "https://gateway.smith.langchain.com/openai",
-#     "use_responses_api": True,
-# }
-# API_KEY_ENV = "LANGSMITH_API_KEY_GATEWAY"
-
 # --- Anthropic (default) ---
 # Haiku 5.5: fast and inexpensive, which suits a workshop. Swap in
 # "anthropic:claude-sonnet-5-5" or "anthropic:claude-opus-5-5" for harder tasks.

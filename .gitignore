@@ -54,3 +54,6 @@ Thumbs.db
 # Deep Agents SQLite long-term memory (notebook demo artifact)
 deep_agents_memory.db
 deep_agents_memory.db-*
+
+# langgraph dev server log (Module 2)
+langgraph_dev.log

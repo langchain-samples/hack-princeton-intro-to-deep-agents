@@ -1,0 +1,9 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "research_agent": "./agent.py:agent",
+    "research_agent_approval": "./agent.py:approval_agent"
+  },
+  "env": ".env",
+  "python_version": "3.12"
+}

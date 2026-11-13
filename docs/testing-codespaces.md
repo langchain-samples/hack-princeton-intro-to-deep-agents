@@ -23,9 +23,7 @@ Notebooks can read injected Codespaces secrets directly from the environment.
 1. Launch the Codespace with the badge above and wait for `postCreateCommand` to finish.
 2. Confirm the terminal reports a successful frozen dependency sync.
 3. Confirm VS Code selects `.venv/bin/python` as the notebook kernel. Select it manually if prompted.
-4. Confirm `.env` contains one labeled, blank entry for each expected variable:
-   - `ANTHROPIC_API_KEY`
-   - `LANGSMITH_API_KEY`
+4. Confirm `.env` contains a labeled, blank `ANTHROPIC_API_KEY` entry.
 5. Open a notebook in `modules/` and confirm its imports succeed. Model calls are expected to fail until the required keys are configured.
 6. Run `git status --short` and confirm `.env` is not listed.
 
